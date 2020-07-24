@@ -8,16 +8,24 @@ body {
 
 /* Nav Bar */
 #navbar {
+  margin: 0 auto;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   background-color: gray;
-  background-image: linear-gradient(rgb(122, 122, 122) 50%, rgb(109, 109, 109) 50%);
+  background-image: linear-gradient(rgb(116, 116, 116) 50%, rgb(99, 99, 99) 50%);
   align-items: center;
   justify-items: center;
   width: 50%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
   margin: 0 auto;
   margin-top: 20px;
-  border-radius: 5px;
 }
 
 .nav-divs {
@@ -79,7 +87,72 @@ body {
 #search-input {
   font-size: 15px;
   color: white;
+  width: 100px;
   height: 100%;
   background-image: linear-gradient(rgb(122, 122, 122) 50%, rgb(109, 109, 109) 50%);
   border: 0px;
+}
+
+/* body container */
+.container {
+  width: 78%;
+  margin: 0 auto;
+}
+
+#hero {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-image: url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+  padding: 50px;
+}
+
+#text-div {
+  text-align: center;
+}
+
+.hero-text {
+  margin: 0px;
+  color: white;
+  font-weight: 100;
+}
+
+#main-title {
+  font-size: 60px;
+}
+
+#description {
+  font-size: 29px;
+  margin-top: 25px;
+}
+
+#hero-link {
+  display: block;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 23px;
+}
+
+#hero-link:hover {
+  text-decoration: underline;
+}
+
+/* Promotional items */
+#promo-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.promo-div {
+  width: 100%;
+}
+
+.promo-div img {
+  width: 100%;
+  display: block;
 }

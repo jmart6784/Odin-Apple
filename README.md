@@ -1,2 +1,12 @@
-Part of the Odin Project:
-https://www.theodinproject.com/courses/html-and-css/lessons/building-with-backgrounds-and-gradients?ref=lnav
+![screen shot](screenshot.png)
+
+The purpose of this project was to practice cloning a website
+
+Visit this project live at: https://jmart6784.github.io/Odin-Apple/
+
+OR
+
+Run the project locally:
+
+1. Download or clone the repository.
+2. Open index.html with your web browser
